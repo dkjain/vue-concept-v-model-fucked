@@ -2,6 +2,7 @@
   <div id="custom-input">
     <h4>Child - Custom Input -- {{ val }}</h4>
     <input type="text" :value="val" @input="emitEvent" />
+    <p>Hello</p>
   </div>
 </template>
 
